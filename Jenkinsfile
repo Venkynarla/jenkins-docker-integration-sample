@@ -17,8 +17,7 @@ pipeline {
             steps {
                 sh "pwd"
                 sh "ls -a"
-                sh "echo $PASSWORD =1234"
-                sh "sudo -s docker build . -t jenkins-docker-int:${env.BUILD_ID} -s"
+                sh "sudo docker build . -t jenkins-project(docker-jenkins integrated):${env.BUILD_ID}"
             }
         }
 
