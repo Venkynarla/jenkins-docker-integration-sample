@@ -17,9 +17,8 @@ pipeline {
             steps {
                 sh "pwd"
                 sh "ls -a"
-                sh "sudo docker build . -t jenkins-project(docker-jenkins integrated):${env.BUILD_ID}"
+                sh "docker build . -t jenkins-project:${env.BUILD_ID}"
             }
         }
-
     }
 }
