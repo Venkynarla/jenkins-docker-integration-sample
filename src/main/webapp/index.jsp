@@ -84,6 +84,7 @@
 	<main class = content_sec>
 		<section id="section">
 			<p>Hi.......................!</p>
+			<p>welcome to this website it is still in devloping process thank you for visiting me let's meet in next deploy till then take care bye!</p>
 		<html>
 	</main>
 	
